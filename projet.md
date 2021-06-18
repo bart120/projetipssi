@@ -40,7 +40,7 @@ Le pipeline de cette application devra contenir les éléments suivants:
 - Tests unitaires
 - Déploiement de la base de données
 - Qualité de code et publication du rapport de qualité dans Sonar Cloud
-- Publier l'artefact au format Nuget
+- Publier l'artefact au format Zip
 - Création d'une image Docker de l'application
 - Publication de l'image Docker dans le Docker hub
 
@@ -55,7 +55,7 @@ Le mot de passe ne doit pas être affiché directement dans le appsettings.json.
 
 ## Services connectés
 
-Pour les artefacts, vous pouvez les déployer sur Azure DevOps, soit sur [npmjs.org](https://www.npmjs.com/) et [nuget.org](https://www.nuget.org/).
+Pour les artefacts, vous pouvez les déployer sur Azure DevOps, soit sur [npmjs.org](https://www.npmjs.com/).
 
 Pour la qualité de code, publier les résultats sur [Sonar Cloud](https://sonarcloud.io/).
 
