@@ -19,6 +19,7 @@ Description des apps:
 ## Repository
 
 Vous devez créer 2 projets Azure DevOps puis récupérer les sources de chaque application afin de les mettre dans un repository Azure DevOps.
+Vous devez me donner l'accès en tant que contributeur à vos 2 projets (vincent.leclerc@ecole-ipssi.net)
 
 ## Auto
 
