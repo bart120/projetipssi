@@ -51,6 +51,8 @@ Il y a déjà une migration prête dans l'application. Vous devrez donc éxécut
 La chaine de connexion se trouve dans le fichier appsettings.json
 Vous devrez avoir créer au préalable une base de données SqlServer dans Azure. (Si votre compte Azure est épuisé, je vous fournirai une base de données Azure).
 
+Le mot de passe ne doit pas être affiché directement dans le appsettings.json. Vous devez utiliser une variable de déploiement.
+
 ## Services connectés
 
 Pour les artefacts, vous pouvez les déployer sur Azure DevOps, soit sur [npmjs.org](https://www.npmjs.com/) et [nuget.org](https://www.nuget.org/).
