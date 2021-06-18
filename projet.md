@@ -47,13 +47,15 @@ Le pipeline de cette application devra contenir les éléments suivants:
 
 L'API Car.API utilise en base de données MS Sql Serveur via Entity Framework.
 Il y a déjà une migration prête dans l'application. Vous devrez donc éxécuter les migrations afin de mettre à jour la structure de la base de données.
-La chaine de connection se trouve dans le fichier appsettings.json
+La chaine de connexion se trouve dans le fichier appsettings.json
 Vous devrez avoir créer au préalable une base de données SqlServer dans Azure. (Si votre compte Azure est épuisé, je vous fournirai une base de données Azure).
 
 ## Services connectés
 
-Pour les artefacts, vous pouvez les déployer sur Azure DevOps, soit sur [npmjs.org](https://www.npmjs.com/) et [nuget.org](https://www.nuget.org/)
-Pour la qualité de code, publier les résltats sur [Sonar Cloud](https://sonarcloud.io/).
+Pour les artefacts, vous pouvez les déployer sur Azure DevOps, soit sur [npmjs.org](https://www.npmjs.com/) et [nuget.org](https://www.nuget.org/).
+
+Pour la qualité de code, publier les résultats sur [Sonar Cloud](https://sonarcloud.io/).
+
 Pour les images Docker, elles seront publiées sur le [docker hub](https://hub.docker.com/).
 
 ## Publication
@@ -62,7 +64,7 @@ Chaque artefact et image Docker devra être taguer avec la version de Build.
 
 # Groupes et fonctionnement
 
-Le projet est a faire en groupe de 2 personnes (ou seul).
+Le projet est à faire en groupe de 2 ou 3 personnes (ou tout seul).
 Tous les groupes seront définis en cours, sous la supervision de l'enseignant. Les groupes s'enregistrent avec un nom de groupe ainsi que les noms de leurs membres.
 
 Toute inscription est définitive.  Les étudiants ne sont pas autorisés, par la suite, à changer de groupe.
