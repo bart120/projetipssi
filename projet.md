@@ -11,7 +11,7 @@ L'objectif est l'intégration des applications Car.API (dot net core) et Auto (A
 
 ## Ce qui est fournis
 
-Pour ce projet, je vous fournis le code source de 2 applications. Les applications sont disponibles sur le [git](https://github.com/bart120/).
+Pour ce projet, je vous fournis le code source de 2 applications. Les applications sont disponibles sur le [git](https://github.com/bart120/projetipssi).
 Description des apps:
 - Auto => application Angular
 - Car.API => service API REST fournissant des données d'une base de données.
