@@ -1,6 +1,7 @@
 import { HttpClientModule } from '@angular/common/http';
 import { TestBed } from '@angular/core/testing';
 import { MatNativeDateModule } from '@angular/material/core';
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MasterModule } from './master/master.module';
 import { MaterialModule } from './material.module';
@@ -17,7 +18,8 @@ describe('AppComponent', () => {
         SharedModule,
         MasterModule,
         HttpClientModule,
-        MatNativeDateModule
+        MatNativeDateModule,
+        AppRoutingModule
       ]
     }).compileComponents();
   });
@@ -34,10 +36,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('AutoAngular');
   });
 
-  /*it('should render title', () => {
+  it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
     expect(compiled.querySelector('mat-toolbar span').textContent).toContain('AutoAngular');
-  });*/
+  });
 });
