@@ -76,12 +76,13 @@ Au sein d'un groupe, les étudiants se répartiront les tâches pour le projet, 
 
 # Rendu
 
-Le rendu se fera le vendredi 18 juin 2021.
+Le rendu se fera le dimanche 20 juin 2021 à 23h59 (plus vous rendez tôt, plus vous aurez de point!).
 
 Les rendus doivent figurer sur un seul compte par groupe.
 Le mail de rendu est vincent.leclerc@ecole-ipssi.net
 Les fichiers rendus doivent contenir
-  - Les fichiers (yaml) et documents techniques du projet.
+  - Les fichiers (yaml) et documents techniques du projet ou un lien contributeur vers vos projets.
+  - Les liens vers vos repos docker hub et npmjs.
   - Un AUTHORS.TXT listant les membres du groupe (prénom, nom), à raison d'un par ligne.  Il liste ensuite les responsabilités effectives de chacun dans le groupe.
 Le sujet du mail doit contenir votre section ainsi que le nom du projet.
 Les fichiers rendus peuvent aussi comprendre: 
